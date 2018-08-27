@@ -1,4 +1,5 @@
-# post-mint-script-test
+<h1>post-mint-script-test</h1>
+
 NOT FOR USE - TESTING
 
 Post installation script for Mint Linux for a mildly security conscious box
@@ -9,4 +10,5 @@ This is a script to tighten up the security on a standard Mint box post installa
 
 This was created on a rainy bank holiday weekend and is not recommend for use...yet.
 
+<h1>Instruction</h1>
 
