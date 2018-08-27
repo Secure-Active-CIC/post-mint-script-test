@@ -4,13 +4,13 @@
 
 Love Mint? Tired of post installation configuration? 
 
-This is a post installation script for Mint Linux for a mildly security conscious box
+This script is to reduce some of the work post-installtion. Designed for a mildly security conscious box.
 
-This is a script to tighten up the security on a standard Mint box post installation. In addition popular security focused apps are installed...or at least, you're given the opportunity to install.
+This is a script to tighten up the security and add some common security focussed apps.
 
 The threat model is a modicum of resilience against an opportunitistic adversary looking for low hanging fruit. 
 
-If you're security needs are greater than this contact Secure Active on <a href="mailto:info@secure.coop?Subject=Security%20help" target="_top">info@secure.coop</a>
+If you're security needs are greater than this, and you're doing socially positive work, contact Secure Active on <a href="mailto:info@secure.coop?Subject=Security%20help" target="_top">info@secure.coop</a>
 
 <h1>Instructions</h1>
 
