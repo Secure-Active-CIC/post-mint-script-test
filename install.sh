@@ -7,7 +7,7 @@
 
 #Bomb out if not sudo'd or run as root
 if [[ $EUID -ne 0 ]]; then
-   	echo "$(tput setaf 2)You'll need to run this as root"
+   	echo "$(tput setaf 2)You'll need to run this as root $(tput sgr 0)"
    	exit 1
 else
 
