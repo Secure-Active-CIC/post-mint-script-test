@@ -1,6 +1,6 @@
 <h1>post-mint-script-test</h1>
 
-NOT FOR USE - TESTING
+<h3>NOT FOR USE - TESTING</h3>
 
 Post installation script for Mint Linux for a mildly security conscious box
 
