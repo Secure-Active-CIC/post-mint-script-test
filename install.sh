@@ -41,9 +41,9 @@ else
     echo "SSH has been allowed"
   fi
 
-  #Set root password
-  echo "Set a password for root"
-  passwd root
+  #Set root password - HASHED OUT FOR TESTING
+  #echo "Set a password for root"
+  #passwd root
 
   #Install AppArmor (we need a level of Mandatory Access Control)
   apt-get install -y apparmor apparmor-utils apparmor-profiles apparmor-profiles-extra
@@ -75,7 +75,10 @@ else
 
   #Install Tresorit
   echo "Installing Tresorit..."
-  wget -O - https://installerstorage.blob.core.windows.net/public/install/tresorit_installer.run
+  cd ~
+  mkdir Tresorit
+  cd Tresorit
+  wget https://installerstorage.blob.core.windows.net/public/install/tresorit_installer.run
   sh ./tresorit_installer.run
 
   #Install Tor Browser
