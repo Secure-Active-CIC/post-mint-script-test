@@ -125,6 +125,7 @@ else
   echo "deb https://packages.cisofy.com/community/lynis/deb/ stable main" | sudo tee /etc/apt/sources.list.d/cisofy-lynis.list
   apt update
   apt-get install lynis
+  echo "To run Lynis enter 'lynis audit system'"
 
   #Sign off
   echo ''
