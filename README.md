@@ -1,5 +1,5 @@
 <h1>post-mint-script-test</h1>
-<img src="https://secure.coop/wp-content/uploads/2017/06/SAAbstract.png" alt="Secure Active Logo" align="right" height="42" width="42"> </img>
+
 <h3>NOT FOR USE - TESTING</h3>
 
 Post installation script for Mint Linux for a mildly security conscious box
@@ -19,4 +19,4 @@ Open a terminal and enter the following:
 <code>chmod +x install.sh</code>
 
 <code>sudo ./install.sh</code>
-
+<img src="https://secure.coop/wp-content/uploads/2017/06/SAAbstract.png" alt="Secure Active Logo" align="middle" height="42" width="42"> </img>
