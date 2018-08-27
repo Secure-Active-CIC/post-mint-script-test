@@ -34,11 +34,11 @@ else
   echo -n "Do you need to use SSH on this box (y/n)? "
   read -r answer
   if [ "$answer" != "${answer#[Yy]}" ] ;then
-    ufw allow ssh
-    echo "SSH has been allowed"
-  else
     ufw deny ssh
     echo "SSH has been disallowed"
+  else
+    ufw allow ssh
+    echo "SSH has been allowed"
   fi
 
   #Set root password
