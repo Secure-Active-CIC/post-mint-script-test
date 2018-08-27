@@ -2,13 +2,15 @@
 
 <h3>NOT FOR USE - TESTING</h3>
 
-Post installation script for Mint Linux for a mildly security conscious box
-
 Love Mint? Tired of post installation configuration? 
 
-This is a script to tighten up the security on a standard Mint box post installation. In addition popular security focused apps are installed...or you're given the opportunity to install.
+This is a post installation script for Mint Linux for a mildly security conscious box
 
-This was created on a rainy bank holiday weekend and is not recommend for use...yet.
+This is a script to tighten up the security on a standard Mint box post installation. In addition popular security focused apps are installed...or at least, you're given the opportunity to install.
+
+The threat model is a modicum of resilience against an opportunitistic adversary looking for low hanging fruit. 
+
+If you're security needs are greater than this 
 
 <h1>Instructions</h1>
 
