@@ -10,7 +10,7 @@ This is a script to tighten up the security and add some common security focusse
 
 The threat model is a modicum of resilience against an opportunitistic adversary looking for low hanging fruit. 
 
-If you're security needs are greater than this, and you're doing socially positive work, contact Secure Active on <a href="mailto:info@secure.coop?Subject=Security%20help" target="_top">info@secure.coop</a>
+If you're security needs are greater than this, and you're doing socially positive work, contact Secure Active on <a href="mailto:info@secure.coop? Subject=Security%20help" target="_top">info@secure.coop</a>
 
 <h1>Instructions</h1>
 
