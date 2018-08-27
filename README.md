@@ -14,9 +14,9 @@ This was created on a rainy bank holiday weekend and is not recommend for use...
 
 Open a terminal and enter the following:
 
-wget  https://raw.githubusercontent.com/Secure-Active-CIC/post-mint-script-test/master/install.sh
+<code>wget  https://raw.githubusercontent.com/Secure-Active-CIC/post-mint-script-test/master/install.sh</code>
 
-chmod +x install.sh
+<code>chmod +x install.sh</code>
 
-sudo ./install.sh
+<code>sudo ./install.sh</code>
 
