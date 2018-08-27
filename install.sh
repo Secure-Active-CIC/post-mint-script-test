@@ -34,11 +34,11 @@ else
   echo -n "$(tput setaf 2)Do you need to use SSH on this box (y/n)? $(tput sgr 0)"
   read -r answer
   if [ "$answer" != "${answer#[Yy]}" ] ;then
-    ufw deny ssh
-    echo "$(tput setaf 2)SSH has been disallowed $(tput sgr 0)"
-  else
     ufw allow ssh
     echo "$(tput setaf 2)SSH has been allowed $(tput sgr 0)"
+  else
+    ufw deny ssh
+    echo "$(tput setaf 2)SSH has been disallowed $(tput sgr 0)"
   fi
 
   #Set root password - HASHED OUT FOR TESTING
