@@ -21,4 +21,13 @@ Open a terminal and enter the following:
 <code>chmod +x install.sh</code>
 
 <code>sudo ./install.sh</code>
+
+<h2>Further Reading</h2>
+
+How to configure Lynis: 
+ <a href="https://cisofy.com/documentation/lynis/configuration/">Lynis Config</a> 
+
+How to configure RKHunter:
+<a href="https://www.pickaweb.co.uk/kb/setup-and-configure-rkhunter-malware-scanner/">RKHunter Config</a>
+
 <img src="https://secure.coop/wp-content/uploads/2017/06/SAAbstract.png" alt="Secure Active Logo" align="right" height="42" width="42"> </img>
