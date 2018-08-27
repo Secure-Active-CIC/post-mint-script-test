@@ -98,6 +98,18 @@ else
     echo "$(tput setaf 2)No ProtonVPN for you... $(tput sgr 0)"
   fi
 
+  #Install ProtonVPN
+  echo -n "$(tput setaf 2)Would you like to install the 3rd party PIA VPN? (y/n)? $(tput sgr 0)"
+  read -r answer
+  if [ "$answer" != "${answer#[Yy]}" ] ;then
+    echo "$(tput setaf 2)Installing PIA VPN... $(tput sgr 0)"
+    apt-get install -y network-manager-openvpn-gnome
+    wget https://www.privateinternetaccess.com/installer/pia-nm.sh
+    ./pia-nm.sh
+  else
+    echo "$(tput setaf 2)No PIA VPN for you... $(tput sgr 0)"
+  fi
+
   #Install the anti-virus ClamTK
   echo "$(tput setaf 2)Installing ClamTK... $(tput sgr 0)"
   apt-get install -y clamtk
