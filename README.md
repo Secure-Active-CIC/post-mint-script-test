@@ -10,5 +10,13 @@ This is a script to tighten up the security on a standard Mint box post installa
 
 This was created on a rainy bank holiday weekend and is not recommend for use...yet.
 
-<h1>Instruction</h1>
+<h1>Instructions</h1>
+
+Open a terminal and enter the following:
+
+wget  https://raw.githubusercontent.com/Secure-Active-CIC/post-mint-script-test/master/install.sh
+
+chmod +x install.sh
+
+sudo ./install.sh
 
